@@ -101,13 +101,12 @@
 			justify-content: center;
 		}
 		#why span{
-			margin: 0 30px;
 		}
 		#why span div{
 			margin-top:20px;
 			font-family: "BPG Arial", sans-serif;
 			font-weight: 700px;
-			font-size:14px;
+			font-size:12px;
 			text-align: center;
 			line-height: 140%;
 		}
@@ -166,11 +165,11 @@
 			font-family: "BPG Arial Caps", sans-serif;
 			font-size: 20px;
 		}
-		#call-us-a:link, #call-us-a:visited {
+		#call-us-a:link, {
 			text-decoration: none;
 			color: #000000;
 		}
-		#call-us-a:hover, #call-us-a:active {
+		#call-us-a:hover, #call-us-a:active, #call-us-a:visited {
 			text-decoration: none;
 			color: #ffffff;
 		}
