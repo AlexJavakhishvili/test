@@ -32,20 +32,57 @@
 
 		<style>
 			
-			@media only screen and (min-width: 600px) {
+			@media only screen and (min-width: 768px) {
 				main {
-					width:1000px;
+					width:90%;
+					margin:0 auto;
+				}
+				header {
 					margin:0 auto;
 				}
 				#header-contact-info{
-					width:1000px;
+					width: 90%;
 				}
 				#logo-container {
-					width:1000px;
 					margin:0 auto;
+					width:90%;
 				}
 				#logo-container-wrapper {
+				}
+				#section-articles {
+					display:grid;
+					grid-template-columns: 1fr 1fr;
+				}
+				#why span{
+					margin: 0 30px;
+				}
+				#why span div{
+					font-size:14px;
+				}
+				#why{
+					grid-gap: 30px;
+				}
+				#footer-wrapper {
+					margin: 0 auto;
+					width:70%;
+				}
+			}
 
+			@media only screen and (min-width: 1368px) {
+				main {
+					width:70%;
+					margin:0 auto;
+				}
+				header {
+				}
+				#header-contact-info{
+					width: 70%;
+				}
+				#logo-container {
+					
+					width:70%;
+				}
+				#logo-container-wrapper {
 				}
 				#section-articles {
 					display:grid;
@@ -58,12 +95,15 @@
 					font-size:14px;
 				}
 				#why{
+					grid-gap: 30px;
 				}
 				#footer-wrapper {
-					width:1000px;
+					width:70%;
 					margin: 0 auto;
 				}
 			}
+
+
 			
 		</style>	
 	</head>
